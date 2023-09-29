@@ -19,4 +19,8 @@ async function bootstrap() {
   );
 }
 
-bootstrap();
+try {
+  bootstrap();
+} catch (e) {
+  console.log(e);
+}

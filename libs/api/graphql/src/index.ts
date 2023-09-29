@@ -1,1 +1,1 @@
-export * from './lib/qglModule';
+export * from './lib/gql.module';
